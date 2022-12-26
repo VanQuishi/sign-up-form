@@ -17,36 +17,38 @@
     <div class="panel rightPanel">
       <div class="introWrapper">
         <p>
-          <p><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</b><br>
-          <b>Sign up <em>now</em> to get started.</b>
-        </p>
-        <p><b>You know you want to.</b></p>
+          <h3><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</b><br>
+          Sign up <em>now</em> to get started.
+        </h3>
+        <h3>You know you want to.</h3>
       </div>
       <div class="formWrapper">
-        <form action="">
-          <div>
-            <p><b>Let's do this!</b></p>
+        <form action="POST">
+          <h3><b>Let's do this!</b></h3>
+          <div class="formInputs">           
+            <div class="formColumn">
+              <label for="">FIRST NAME</label>
+              <input type="text" name="" id="" required>
 
-            <label for="">FIRST NAME</label>
-            <input type="text" name="" id="">
+              <label for="">EMAIL</label>
+              <input type="email" name="" id="" required>
 
-            <label for="">LAST NAME</label>
-            <input type="text" name="" id="">
+              <label for="">PASSWORD</label>
+              <input type="password" name="" id="" required>
+            </div>
+            <div class="formColumn">
+              <label for="">LAST NAME</label>
+              <input type="text" name="" id="" required>
 
-            <label for="">EMAIL</label>
-            <input type="text" name="" id="">
+              <label for="">PHONE NUMBER</label>
+              <input type="text" name="" id="">
 
-            <label for="">PHONE NUMBER</label>
-            <input type="text" name="" id="">
-
-            <label for="">PASSWORD</label>
-            <input type="text" name="" id="">
-
-            <label for="">CONFIRM PASSWORD</label>
-            <input type="text" name="" id="">
+              <label for="">CONFIRM PASSWORD</label>
+              <input type="password" name="" id="" required>
+            </div>          
           </div>
           <div>
-            <button>Create Account</button>
+            <button id="createAcctBtn">Create Account</button>
             <p>Already have an account? <span><a href="">Log in</a></span></p>
           </div>
         </form>
