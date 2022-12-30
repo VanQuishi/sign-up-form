@@ -12,42 +12,47 @@
     <div class="panel leftPanel">
       <div class="logo">
         <img src="./assets/img/odin-lined.png" alt="Green leaves background">
+        <h1 class="Odin">ODIN</h1>
       </div>   
     </div>
     <div class="panel rightPanel">
       <div class="introWrapper">
-        <p>
           <h3><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</b><br>
           Sign up <em>now</em> to get started.
-        </h3>
+          </h3>
         <h3>You know you want to.</h3>
       </div>
-      <div class="formWrapper">
-        <form action="POST">
-          <h3><b>Let's do this!</b></h3>
-          <div class="formInputs">           
-            <div class="formColumn">
-              <label for="">FIRST NAME</label>
-              <input type="text" name="" id="" required>
-
-              <label for="">EMAIL</label>
-              <input type="email" name="" id="" required>
-
-              <label for="">PASSWORD</label>
-              <input type="password" name="" id="" required>
-            </div>
-            <div class="formColumn">
-              <label for="">LAST NAME</label>
-              <input type="text" name="" id="" required>
-
-              <label for="">PHONE NUMBER</label>
-              <input type="text" name="" id="">
-
-              <label for="">CONFIRM PASSWORD</label>
-              <input type="password" name="" id="" required>
-            </div>          
+      <div>
+        <form action="">              
+          <div class="formWrapper">    
+            <div class="formTitle">
+              <h3><b>Let's do this!</b></h3>
+            </div>   
+            <div class="formInputs">
+              <div class="formColumn">
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" name="firstName" id="firstName" required>
+  
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required>
+  
+                <label for="passWord">PASSWORD</label>
+                <input type="password" name="passWord" id="passWord" required>
+                <p id="notMatchMsg">*Passwords do not match</p>
+              </div>
+              <div class="formColumn">
+                <label for="lastName">LAST NAME</label>
+                <input type="text" name="lastName" id="lastName" required>
+  
+                <label for="phoneNum">PHONE NUMBER</label>
+                <input type="text" name="phoneNum" id="phoneNum">
+  
+                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" required>
+              </div>    
+            </div>                        
           </div>
-          <div>
+          <div class="submitWrapper">
             <button id="createAcctBtn">Create Account</button>
             <p>Already have an account? <span><a href="">Log in</a></span></p>
           </div>
@@ -55,6 +60,6 @@
       </div>
     </div>
   </div>
-  
+  <script src="myscripts.js"></script>
 </body>
 </html>
