@@ -3,3 +3,6 @@ This is a project in [The Odin Project](https://www.theodinproject.com/lessons/n
 
 # Purpose:
 Practice basic styling layouts and forms
+
+# View this project live:
+[sign-up-form](https://vanquishi.github.io/sign-up-form/)
